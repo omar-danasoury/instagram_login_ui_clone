@@ -15,6 +15,7 @@ class LoginPage extends StatelessWidget {
             flex: 1,
             child: Container(
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text("Don't have an account?"),
                   SizedBox(
