@@ -12,7 +12,17 @@ class LoginPage extends StatelessWidget {
           // TODO 2: the logo and the text fields, and the buttons
           // TODO 1:the footer
           Expanded(
+            flex: 1,
             child: Container(
+              child: Row(
+                children: [
+                  Text("Don't have an account?"),
+                  SizedBox(
+                    width: 16.0,
+                  ),
+                  Text("Sign Up."),
+                ],
+              ),
               decoration: const BoxDecoration(
                 color: Colors.white,
                 border: Border(
