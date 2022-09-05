@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_login/pages/login_page.dart';
+
 void main() {
   runApp(LoginUI());
 }
@@ -12,7 +13,6 @@ class LoginUI extends StatelessWidget {
         colorScheme: ColorScheme.dark(),
       ),
       home: LoginPage(),
-      ),
     );
   }
 }
