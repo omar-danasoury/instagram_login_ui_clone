@@ -11,6 +11,13 @@ class LoginPage extends StatelessWidget {
           // TODO 3: the spinner of languages + implementing the search of languages
           // TODO 2: the logo and the text fields, and the buttons
           // TODO 1:the footer
+          Expanded(
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+            ),
+          ),
         ],
       ),
     );
