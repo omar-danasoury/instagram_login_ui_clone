@@ -13,8 +13,14 @@ class LoginPage extends StatelessWidget {
           // TODO 1:the footer
           Expanded(
             child: Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 color: Colors.white,
+                border: Border(
+                  top: BorderSide(
+                    color: Colors.grey,
+                    width: 2.0,
+                  ),
+                ),
               ),
             ),
           ),
