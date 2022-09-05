@@ -23,6 +23,15 @@ class LoginPage extends StatelessWidget {
                   ),
                   Text("Sign Up."),
                 ],
+                // TODO: change the sign up text style:
+                // TODO: change the color to be blue
+                // TODO: and make the text underlined
+
+                // TODO: add the top spinner as a dummy one
+                // TODO:  then start working on the center
+                // TODO: logo and the text fields
+
+                // TODO: add the padding for the footer
               ),
               decoration: const BoxDecoration(
                 color: Colors.white,
