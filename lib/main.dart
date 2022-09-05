@@ -12,7 +12,9 @@ class LoginUI extends StatelessWidget {
       theme: ThemeData().copyWith(
         colorScheme: ColorScheme.dark(),
       ),
-      home: LoginPage(),
+      home: SafeArea(
+        child: LoginPage(),
+      ),
     );
   }
 }
