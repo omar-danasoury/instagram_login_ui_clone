@@ -27,9 +27,6 @@ class LoginPage extends StatelessWidget {
                     style: signUpTextStyle,
                   ),
                 ],
-                // TODO: change the sign up text style:
-                // TODO: and make the text underlined
-
                 // TODO: add the top spinner as a dummy one
                 // TODO:  then start working on the center
                 // TODO: logo and the text fields
