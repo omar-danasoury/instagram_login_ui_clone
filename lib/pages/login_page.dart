@@ -36,15 +36,7 @@ class LoginPage extends StatelessWidget {
 
                 // TODO: add the padding for the footer
               ),
-              decoration: const BoxDecoration(
-                color: Colors.white,
-                border: Border(
-                  top: BorderSide(
-                    color: Colors.grey,
-                    width: 2.0,
-                  ),
-                ),
-              ),
+              decoration: signUpBoxDecoration,
             ),
           ),
         ],

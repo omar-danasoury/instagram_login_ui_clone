@@ -5,3 +5,13 @@ const signUpTextStyle = TextStyle(
   decoration: TextDecoration.underline,
   fontWeight: FontWeight.bold,
 );
+
+const signUpBoxDecoration = BoxDecoration(
+  color: Colors.white,
+  border: Border(
+    top: BorderSide(
+      color: Colors.grey,
+      width: 2.0,
+    ),
+  ),
+);
