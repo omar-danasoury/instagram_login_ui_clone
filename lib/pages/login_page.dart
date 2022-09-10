@@ -19,7 +19,7 @@ class LoginPage extends StatelessWidget {
                 children: [
                   Text("Don't have an account?"),
                   SizedBox(
-                    width: 16.0,
+                    width: 4.0,
                   ),
                   Text(
                     "Sign Up.",
