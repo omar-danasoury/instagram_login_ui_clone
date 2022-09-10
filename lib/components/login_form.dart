@@ -21,9 +21,6 @@ class LoginForm extends StatelessWidget {
           cursorColor: Color(0XFF27A9FF),
           decoration: InputDecoration().copyWith(
             hintText: "Enter your email or username",
-            hintStyle: TextStyle(
-              color:
-            ),
             focusedBorder: null,
             contentPadding:
                 EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
