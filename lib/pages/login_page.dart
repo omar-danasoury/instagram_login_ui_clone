@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_login/constants.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -23,11 +24,7 @@ class LoginPage extends StatelessWidget {
                   ),
                   Text(
                     "Sign Up.",
-                    style: TextStyle(
-                      color: Colors.blue,
-                      decoration: TextDecoration.underline,
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: signUpTextStyle,
                   ),
                 ],
                 // TODO: change the sign up text style:
