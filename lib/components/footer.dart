@@ -14,11 +14,11 @@ class Footer extends StatelessWidget {
           ),
           Text(
             "Sign Up.",
-            style: signUpTextStyle,
+            style: kSignUpTextStyle,
           ),
         ],
       ),
-      decoration: signUpBoxDecoration,
+      decoration: kSignUpBoxDecoration,
     );
   }
 }

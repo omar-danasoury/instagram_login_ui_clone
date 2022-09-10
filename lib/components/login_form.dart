@@ -11,7 +11,7 @@ class LoginForm extends StatelessWidget {
         Text(
           "Instagram",
           textAlign: TextAlign.center,
-          style: instagramLogoTextStyle,
+          style: kInstagramLogoTextStyle,
         ),
       ],
     );

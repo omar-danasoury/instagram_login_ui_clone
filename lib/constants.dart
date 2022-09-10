@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-const signUpTextStyle = TextStyle(
+const kSignUpTextStyle = TextStyle(
   color: Colors.blue,
   decoration: TextDecoration.underline,
   fontWeight: FontWeight.bold,
 );
 
-const signUpBoxDecoration = BoxDecoration(
+const kSignUpBoxDecoration = BoxDecoration(
   color: Colors.white,
   border: Border(
     top: BorderSide(
@@ -16,7 +16,7 @@ const signUpBoxDecoration = BoxDecoration(
   ),
 );
 
-const instagramLogoTextStyle = TextStyle(
+const kInstagramLogoTextStyle = TextStyle(
   fontSize: 48.0,
   color: Colors.black,
 );
