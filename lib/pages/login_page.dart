@@ -21,7 +21,10 @@ class LoginPage extends StatelessWidget {
           ),
           Expanded(
             flex: 11,
-            child: LoginForm(),
+            child: Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: LoginForm(),
+            ),
           ),
           Expanded(
             flex: 1,
