@@ -19,6 +19,10 @@ class LoginPage extends StatelessWidget {
             child: Footer(),
           ),
           Expanded(
+            flex: 8,
+            child: Container(),
+          ),
+          Expanded(
             flex: 1,
             child: Footer(),
           ),
