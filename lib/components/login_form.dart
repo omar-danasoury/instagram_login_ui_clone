@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_login/constants.dart';
 
 class LoginForm extends StatelessWidget {
   @override
@@ -9,10 +10,8 @@ class LoginForm extends StatelessWidget {
       children: [
         Text(
           "Instagram",
-          style: TextStyle(
-            fontSize: 48.0,
-            color: Colors.black,
-          ),
+          textAlign: TextAlign.center,
+          style: instagramLogoTextStyle,
         ),
       ],
     );

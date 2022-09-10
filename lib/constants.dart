@@ -15,3 +15,8 @@ const signUpBoxDecoration = BoxDecoration(
     ),
   ),
 );
+
+const instagramLogoTextStyle = TextStyle(
+  fontSize: 48.0,
+  color: Colors.black,
+);
