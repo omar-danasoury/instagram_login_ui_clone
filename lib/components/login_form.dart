@@ -7,7 +7,7 @@ class LoginForm extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       mainAxisAlignment: MainAxisAlignment.center,
-      children: const [
+      children: [
         Text(
           "Instagram",
           textAlign: TextAlign.center,
@@ -19,8 +19,11 @@ class LoginForm extends StatelessWidget {
         TextField(
           textAlign: TextAlign.left,
           cursorColor: Color(0XFF27A9FF),
-          decoration: InputDecoration(
+          decoration: InputDecoration().copyWith(
             hintText: "Enter your email or username",
+            hintStyle: TextStyle(
+              color:
+            ),
             focusedBorder: null,
             contentPadding:
                 EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
