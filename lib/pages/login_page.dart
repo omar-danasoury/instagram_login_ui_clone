@@ -12,12 +12,12 @@ class LoginPage extends StatelessWidget {
         children: [
           Expanded(
             // this is a dummy header for now
+            // TODO 3: the spinner of languages + implementing the search of languages
+            // TODO 2: the logo and the text fields, and the buttons
+            // TODO 1:the footer
             flex: 1,
             child: Footer(),
           ),
-          // TODO 3: the spinner of languages + implementing the search of languages
-          // TODO 2: the logo and the text fields, and the buttons
-          // TODO 1:the footer
           Expanded(
             flex: 1,
             child: Footer(),
