@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_login/components/footer.dart';
 import 'package:instagram_login/constants.dart';
+import 'package:instagram_login/components/login_form.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -18,10 +19,7 @@ class LoginPage extends StatelessWidget {
             flex: 1,
             child: Footer(),
           ),
-          Expanded(
-            flex: 11,
-            child: Container(),
-          ),
+          LoginForm(),
           Expanded(
             flex: 1,
             child: Footer(),
