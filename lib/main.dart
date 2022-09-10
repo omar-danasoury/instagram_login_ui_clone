@@ -10,7 +10,7 @@ class LoginUI extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData().copyWith(
-        colorScheme: ColorScheme.dark(),
+        primaryColor: const Color(0XFF27A9FF),
       ),
       home: SafeArea(
         child: LoginPage(),
