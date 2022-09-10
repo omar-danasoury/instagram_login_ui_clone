@@ -21,10 +21,16 @@ class LoginPage extends StatelessWidget {
                   SizedBox(
                     width: 16.0,
                   ),
-                  Text("Sign Up."),
+                  Text(
+                    "Sign Up.",
+                    style: TextStyle(
+                      color: Colors.blue,
+                      decoration: TextDecoration.underline,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
                 // TODO: change the sign up text style:
-                // TODO: change the color to be blue
                 // TODO: and make the text underlined
 
                 // TODO: add the top spinner as a dummy one
