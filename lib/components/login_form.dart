@@ -18,7 +18,7 @@ class LoginForm extends StatelessWidget {
         ),
         TextField(
           textAlign: TextAlign.left,
-          cursorColor: Color(0XFF27A9FF),
+          cursorColor: kInstagramBlueColor,
           decoration: kUsernameInputDecoration,
         ),
       ],

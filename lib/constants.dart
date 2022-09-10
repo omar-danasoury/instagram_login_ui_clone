@@ -30,3 +30,5 @@ const kUsernameInputDecoration = InputDecoration(
   focusColor: null,
   border: InputBorder.none,
 );
+
+const Color kInstagramBlueColor = Color(0XFF27A9FF);
