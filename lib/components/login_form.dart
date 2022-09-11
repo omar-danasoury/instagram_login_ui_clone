@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:instagram_login/constants.dart';
+import 'package:instagram_login/components/login_text_field.dart';
 
 class LoginForm extends StatelessWidget {
   @override
@@ -16,10 +17,13 @@ class LoginForm extends StatelessWidget {
         SizedBox(
           height: 48.0,
         ),
-        TextField(
-          textAlign: TextAlign.left,
-          cursorColor: kInstagramBlueColor,
-          decoration: kUsernameInputDecoration,
+        LoginTextField(
+          text: 'Enter your email or username',
+          isPassword: false,
+        ),
+        LoginTextField(
+          text: 'Enter your password',
+          isPassword: true,
         ),
       ],
     );
