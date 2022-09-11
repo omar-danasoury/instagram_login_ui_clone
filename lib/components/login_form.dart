@@ -21,6 +21,9 @@ class LoginForm extends StatelessWidget {
           text: 'Enter your email or username',
           isPassword: false,
         ),
+        SizedBox(
+          height: 8.0,
+        ),
         LoginTextField(
           text: 'Enter your password',
           isPassword: true,
